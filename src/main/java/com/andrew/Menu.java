@@ -18,12 +18,6 @@ public class Menu {
     }
 
     static protected void mainmenu(String[] args){
-        switch (args[0]){
-            case "ENCRYPT" -> System.out.printf("You choose %s", MenuElements.ENCRYPT.getTitle());
-            case "DECRYPT" -> System.out.printf("You choose %s", MenuElements.DECRYPT.getTitle());
-            case "BRUT_FORCE" -> System.out.printf("You choose %s", MenuElements.BRUT_FORCE.getTitle());
-            case "EXIT" -> System.out.printf("You choose %s", MenuElements.EXIT.getTitle());
-        }
     }
 
 }
