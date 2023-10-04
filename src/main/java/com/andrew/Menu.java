@@ -2,6 +2,7 @@ package com.andrew;
 
 import org.w3c.dom.ls.LSOutput;
 
+import java.io.File;
 import java.util.*;
 
 public class Menu {
@@ -38,13 +39,15 @@ public class Menu {
                 }
             }
         }while(userOption == -1);
+        switch (userOption){
 
+        }
 
     }
 
     static protected void mainmenu(String[] args){
         //Згідно умови отримуємо аргументи типу command filePath key.
-        
+
     }
 
 }
